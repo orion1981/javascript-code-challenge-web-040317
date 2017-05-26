@@ -8,11 +8,16 @@
   <body>
 
     <form id="note-form">
-      <input type='text' />
+      <h1>Add Comment:</h1>
+      <label>Write comment here:</label>
+      <input name='comment' id='newComment' type='text' />
       <input type='submit' />
     </form>
 
-    <div id='comment-list'></div>
+    <div id='comment-list'>
+      <h2>New comments!</h2>
+      <ul></ul>
+    </div>
 
     <script type="text/javascript" src='src/CommentList.js'></script>
     <script type="text/javascript" src='src/Comment.js'></script>
